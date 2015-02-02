@@ -31,6 +31,11 @@ body{
 header {
   padding: 0 1em;
   position: relative;
+  background-color: $light-grey;
+}
+
+.main{
+  background: $background;
 }
 
 .toggle-btn{
@@ -51,7 +56,12 @@ header {
     padding: .5em 1em;
     text-align: center;
     border-bottom: 1px solid $light-grey;
+    border-radius: 5px;
     text-decoration: none;
+    background-color: $forest-green;
+    color: $light-grey;
+    margin-left: 3em;
+    margin-right: 3em;
     }
   } // li
 } // .navigation ul
@@ -66,7 +76,10 @@ header {
   }
   i{
     border: 1px solid $text-color;
+    border-radius: 5px;
     padding: .5em;
+    background-color: $forest-green;
+    color: $light-grey;
   }
 }
 
