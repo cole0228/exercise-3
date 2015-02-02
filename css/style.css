@@ -184,4 +184,5 @@ header {
 /* line 121, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 body.noscript .slide-menu {
   position: static;
-  right: auto; }
+  right: auto;
+  cursor: pointer; }
