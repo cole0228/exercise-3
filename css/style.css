@@ -94,29 +94,31 @@ body {
 header {
   padding: 0 1em;
   position: relative;
-  background-color: #ccc; }
+  background-color: #ccc;
+  top: -1em;
+  padding-top: 2em; }
 
-/* line 37, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 39, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 .main {
   background: url(../images/forest.jpg) no-repeat center top; }
 
-/* line 41, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 43, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 .toggle-btn {
   position: absolute;
   right: 1em;
-  top: 0; }
+  top: 3em; }
 
-/* line 47, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 49, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 49, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 51, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 51, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+    /* line 53, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
     .navigation ul li:first-child a {
       border-top: 1px solid #ccc; }
-    /* line 54, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+    /* line 56, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
@@ -129,18 +131,18 @@ header {
       margin-left: 3em;
       margin-right: 3em; }
 
-/* line 70, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 72, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
   color: #222;
   height: 40px;
   width: 40px; }
-  /* line 74, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 76, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 77, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 79, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
     border: 1px solid #222;
     border-radius: 5px;
@@ -148,18 +150,18 @@ header {
     background-color: #0d370d;
     color: #ccc; }
 
-/* line 86, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 88, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 .close-btn {
   margin: 1em; }
 
 @media only screen and (max-width: 60em) {
-  /* line 91, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 93, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100; }
-    /* line 96, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+    /* line 98, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -168,33 +170,33 @@ header {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 104, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+    /* line 106, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 108, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+    /* line 110, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; }
 
-  /* line 115, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 117, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: 3em;
     bottom: 0;
     right: -100%;
     min-height: 600px; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 129, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+  /* line 131, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
  }
 
-/* line 134, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
+/* line 136, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-3/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto;
